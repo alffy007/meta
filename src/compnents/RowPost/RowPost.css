@@ -1,0 +1,29 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.posters{
+    display: flex;
+ 
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+margin-bottom: 20px;
+
+}
+.poster:hover{
+    transform: scale(1.2)
+}
